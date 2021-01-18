@@ -28,7 +28,7 @@ public class App extends Application {
 
         // ObjectMapper mapper  = new ObjectMapper();
         // List<Pair> pairs; 
-
+        JSONObject obj;
 
         Label l = new Label(response.body());
         Scene scene = new Scene(new StackPane(l), 1280, 720);
